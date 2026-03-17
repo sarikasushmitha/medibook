@@ -1,0 +1,65 @@
+# ─── .NET / ASP.NET Core ───────────────────────────────────────────────────
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+.vs/
+_ReSharper*/
+*.ReSharper
+TestResult.xml
+[Tt]est[Rr]esult*/
+*.ncrunchproject
+*.ncrunchsolution
+*.ncrunchproject
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+*.zip
+
+# SQLite database files — do NOT commit the database
+*.db
+*.db-shm
+*.db-wal
+
+# EF Core migrations snapshot (optional to commit)
+# Uncomment to ignore:
+# **/Migrations/
+
+# Secrets
+appsettings.Production.json
+appsettings.Secrets.json
+secrets.json
+
+# ─── Angular / Node ────────────────────────────────────────────────────────
+node_modules/
+dist/
+.angular/
+.sass-cache/
+*.js.map
+npm-debug.log
+yarn-error.log
+.npm
+.yarn-integrity
+
+# Environment files (keep examples, ignore actuals)
+src/environments/environment.prod.ts
+
+# ─── OS / Editor ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+# ─── CI / Build artifacts ──────────────────────────────────────────────────
+out/
+publish/
